@@ -1,16 +1,35 @@
-# task_management_app_provider
+📱 Task Management App (Flutter + Provider)
 
-A new Flutter project.
+This is a Flutter-based Task Management App built using Provider for state management. The app helps users efficiently manage their daily tasks by adding, updating, deleting, and marking tasks as completed with a clean and responsive UI.
 
-## Getting Started
+🚀 Features
+➕ Add new tasks
+✏️ Edit existing tasks
+🗑️ Delete tasks
+✅ Mark tasks as completed (line-through effect)
+📋 View all tasks in a structured list
+🔄 Real-time UI updates using Provider
+💾 Local state management
+🛠️ Technologies Used
+Flutter (UI Toolkit)
+Dart (Programming Language)
+Provider (State Management)
+⚙️ App Workflow
 
-This project is a starting point for a Flutter application.
+The app uses Provider to manage state efficiently. When a user adds or updates a task, the UI automatically refreshes without reloading the screen, ensuring smooth performance and better user experience.
 
-A few resources to get you started if this is your first Flutter project:
+📂 Project Structure
+models/ → Task model
+providers/ → State management logic
+screens/ → UI screens
+widgets/ → Reusable components
+main.dart → App entry point
+📸 Screenshot
+<img src="https://raw.githubusercontent.com/gillzaib021-code/Task_Management_App-Using-Provider-/f2f6e0973a36d7a66a363e840661eceb47848088/task_managemtn.jpeg" width="350"/>
+🎯 Purpose
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+This project is created for learning Flutter state management (Provider) and building a real-world task management application with clean architecture and reusable components.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+⭐ Support
+
+If you like this project, don’t forget to star ⭐ the repository.
